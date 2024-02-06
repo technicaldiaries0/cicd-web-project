@@ -8,4 +8,4 @@ WORKDIR /app
 COPY target/hello-world.war /app/hello-world.war
 
 # Specify the command to run your application
-CMD ["java", "-jar", "hello-world.war"]
+CMD ["java", "-war", "hello-world.war"]
